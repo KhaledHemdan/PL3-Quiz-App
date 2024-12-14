@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4PfIEsb+U00=",
+  "success": true,
+  "projectFilePath": "E:\\QuizApp\\QuizApp.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Halal-Store\\.nuget\\packages\\fsharp.core\\8.0.401\\fsharp.core.8.0.401.nupkg.sha512"
+  ],
+  "logs": []
+}
