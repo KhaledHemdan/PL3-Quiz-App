@@ -21,6 +21,7 @@ let quizQuestions =
         { Text = "Which national team won the world cup in 2022?"; Options = Some [| "fRANCE"; "Argentina"; "Morocco"; "Croatia" |]; CorrectAnswer = "Argentina"; IsMultipleChoice = true }
         { Text = "What is your favorite hobby and why?"; Options = None; CorrectAnswer = "My favorite hobby is reading because it helps me learn and relax."; IsMultipleChoice = false }
         { Text = "What is the biggest country by population in Afria?"; Options = None; CorrectAnswer = "Nigeria"; IsMultipleChoice = false }
+        { Text = "What is the smallest planet in our solar system?"; Options = Some [| "Earth"; "Mars"; "Mercury"; "Venus" |]; CorrectAnswer = "Mercury"; IsMultipleChoice = true }
     |]
 
 let mutable userAnswers = []
