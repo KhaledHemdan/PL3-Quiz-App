@@ -16,6 +16,8 @@ let quizQuestions =
         { Text = "Who wrote 'Macbeth'?"; Options = Some [| "Shakespeare"; "Dickens"; "Hemingway"; "Austen" |]; CorrectAnswer = "Shakespeare"; IsMultipleChoice = true }
         { Text = "What is the capital of France?"; Options = Some [| "Berlin"; "Madrid"; "Paris"; "Rome" |]; CorrectAnswer = "Paris"; IsMultipleChoice = true }
         { Text = "Describe your favorite holiday."; Options = None; CorrectAnswer = "My favorite holiday is Christmas."; IsMultipleChoice = false }
+        { Text = "What is the speed of light in vacuum (approx)?"; Options = Some [| "300,000 km/s"; "150,000 km/s"; "1,000,000 km/s"; "50,000 km/s" |]; CorrectAnswer = "300,000 km/s"; IsMultipleChoice = true }
+        { Text = "Write a few sentences about your favorite food."; Options = None; CorrectAnswer = "I love pizza."; IsMultipleChoice = false }
     |]
 
 let mutable userAnswers = []
