@@ -18,6 +18,7 @@ let quizQuestions =
         { Text = "Describe your favorite holiday."; Options = None; CorrectAnswer = "My favorite holiday is Christmas."; IsMultipleChoice = false }
         { Text = "What is the speed of light in vacuum (approx)?"; Options = Some [| "300,000 km/s"; "150,000 km/s"; "1,000,000 km/s"; "50,000 km/s" |]; CorrectAnswer = "300,000 km/s"; IsMultipleChoice = true }
         { Text = "Write a few sentences about your favorite food."; Options = None; CorrectAnswer = "I love pizza."; IsMultipleChoice = false }
+        { Text = "Which national team won the world cup in 2022?"; Options = Some [| "fRANCE"; "Argentina"; "Morocco"; "Croatia" |]; CorrectAnswer = "Argentina"; IsMultipleChoice = true }
     |]
 
 let mutable userAnswers = []
