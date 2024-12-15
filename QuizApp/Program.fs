@@ -19,6 +19,7 @@ let quizQuestions =
         { Text = "What is the speed of light in vacuum (approx)?"; Options = Some [| "300,000 km/s"; "150,000 km/s"; "1,000,000 km/s"; "50,000 km/s" |]; CorrectAnswer = "300,000 km/s"; IsMultipleChoice = true }
         { Text = "Write a few sentences about your favorite food."; Options = None; CorrectAnswer = "I love pizza."; IsMultipleChoice = false }
         { Text = "Which national team won the world cup in 2022?"; Options = Some [| "fRANCE"; "Argentina"; "Morocco"; "Croatia" |]; CorrectAnswer = "Argentina"; IsMultipleChoice = true }
+        { Text = "What is your favorite hobby and why?"; Options = None; CorrectAnswer = "My favorite hobby is reading because it helps me learn and relax."; IsMultipleChoice = false }
     |]
 
 let mutable userAnswers = []
